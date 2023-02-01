@@ -25,7 +25,7 @@ jobs:
 workflows:
   Appdome fusion:
     jobs:
-      - appdome-orb/appdome_runner:
+      - build-2secure/appdome_runner:
           appFile: https://github.com/avi112211/test_circleci/raw/circleci-project-setup/app-release.apk
           google-play-signing: false
           output: output_apk.apk
