@@ -29,5 +29,5 @@ workflows:
           appFile: https://github.com/avi112211/test_circleci/raw/circleci-project-setup/app-release.apk
           google-play-signing: false
           output: output_apk.apk
-          runner: ANDROID_AUTO_SIGNING
+          runner: ANDROID_PRIVATE_SIGNING
 
